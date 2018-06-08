@@ -1,0 +1,36 @@
+body {
+  font-family: Helvetica;
+}
+
+svg {
+  width: 500px;
+  height: 500px;
+}
+
+.top-label {
+  font-size: 13px;
+  font-style: italic;
+  text-transform: uppercase;
+  float: left;
+}
+
+.age-label {
+  text-align: right;
+  font-weight: bold;
+  width: 90px;
+  padding-right: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.bar-label {
+  text-anchor: end;
+  /* text-anchor: start/middle/end; */
+}
+
+.axis-label {
+  text-anchor: middle;
+  font-size: 13px;
+}
